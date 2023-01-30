@@ -138,7 +138,7 @@ public class AmazonStepDefination {
     @And("user can logout")
     public void userCanLogout() {
 
-        WebElement loginPage = Driver.getDriver().findElement(By.xpath("//div[@class='a-box-inner a-padding-extra-large']"));
+        WebElement loginPage = Driver.getDriver().findElement(By.xpath("//di[@class='a-box-inner a-padding-extra-large']"));
         Assert.assertTrue(loginPage.isDisplayed());
     }
 
